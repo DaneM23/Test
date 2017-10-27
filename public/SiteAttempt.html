@@ -61,7 +61,8 @@
     };
 
     //Left Arrow Click
-    arrowLeft.addEventListener('click', function[]{
+    //functions must have a parameter like so, (), and no square brackets, like so []. Even if the parameter is zero, it is required
+    arrowLeft.addEventListener('click', function(){
       if(current === 0){
         current = sliderImages.length;
       }
@@ -69,7 +70,7 @@
     });
 
     //Right Arrow Click
-    arrowRight.addEventListener('click', function[]{
+    arrowRight.addEventListener('click', function(){
       if(current === sliderImages.length - 1){
         current = -1;
       }

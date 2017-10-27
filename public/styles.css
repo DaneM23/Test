@@ -1,6 +1,8 @@
-body, #slider, .wrap, .slide-content{
-  margin 0;
-  padding 0;
+body, #slider, .wrap, .slide-content
+{
+  /* must be a colon between the below keys like margin, and the value like 0 */
+  margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   height: 100vh;
@@ -14,7 +16,7 @@ body, #slider, .wrap, .slide-content{
   background-position: center;
   background-repeat: no-repeat;
 }
-
+/* no dog images are loaded, and no 'images' folder exists */
 .slide1{background-image: url('Images/Dog1.jpeg')}
 .slide2{background-image: url('Images/Dog2.jpeg')}
 .slide3{background-image: url('Images/Dog3.jpeg')}
